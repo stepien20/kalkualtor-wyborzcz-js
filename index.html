@@ -52,30 +52,22 @@
         </ol>
         </div>
         
-        <div id="table" class="d-flex justify-content-center flex-column align-items-center d-none">
+        <div id="tableDisplay" class="d-flex justify-content-center flex-column align-items-center d-none">
          <h2 class="p-2 text-primary text-center">Wyniki wyborów</h2>
-        <table class="table table-bordered">
+        <table class="table table-bordered" id="table">
           
-          <tr class="table-secondary">
+            <thead class="table-secondary">
+          <tr >
            <th> Lp</th>
           <th>Nazwa ugrupowania</th>
           <th>próg wyborczy</th>
           <th>ilość głosów</th>
           <th>wynik procentowy</th>
             </tr>
-          <div id="parties">
-          
-          
+        </thead>
+        <tbody>
 
-                <tr class="table-success" i>
-                <td>1</td>
-                <td>PKL</td>
-                <td>8</td>
-                <td>12543</td>
-                <td>50.73</td>
-                </tr>
-                
-            </div>
+        </tbody>
             </table>
       </div> 
       <footer class="text-primary text-center"><h4>&copy;Dawid Stępień</h4></footer>
